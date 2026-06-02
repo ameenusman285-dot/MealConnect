@@ -278,5 +278,4 @@ All admin pages call `admin/includes/admin_auth.php` and require an active admin
 - For local testing, set `SITE_URL` in `includes/config.php` to match your localhost path.
 
 
-#   M e a l C o n n e c t  
- 
+#
