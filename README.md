@@ -97,7 +97,7 @@ From your project folder (in XAMPP `htdocs`), open these URLs:
 - **Frontend**: HTML5, CSS (single `css/style.css`), Bootstrap 5, Font Awesome, Google Fonts
 - **Backend**: PHP (MySQLi)
 - **Database**: MySQL
-- **AI**: Gemini API via `chatbot_api.php` using cURL
+- **AI**: Groq API via `chatbot_api.php` using cURL
 
 ---
 
@@ -255,7 +255,7 @@ Access:
 
 ### `chatbot_api.php` (Gemini backend)
 - Receives JSON: `{ "message": "..." }`
-- Calls Gemini endpoint using `GEMINI_API_KEY`.
+- Calls Groq endpoint using `Groq_API_KEY`.
 - Returns JSON: `{ "reply": "..." }`
 
 ### Admin pages
